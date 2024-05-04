@@ -2510,7 +2510,7 @@ footer .footer-menu .footer-nav-toggler {
     color: #fff;
 }
 #pricing-content .price-table-wrap .price-table button:before {
-    background: #EFA600;
+    background: indianred;
 }
 /**
 * Pricing FAQ Styles.
@@ -5315,7 +5315,7 @@ header.construct .cart-box {
     transition: all .3s ease;
 }
 .single-construction-welcome .img-holder:before {
-    background: #DA9700;
+    background: white;
 }
 .single-construction-welcome:hover .img-holder img {
     opacity: .45;
@@ -5338,7 +5338,7 @@ header.construct .cart-box {
 .single-construction-welcome h2:after {
     content: '';
     width: 35px;
-    background: #F7A238;
+    background: indianred;
     height: 2px;
     display: block;
     margin-bottom: 15px;
@@ -5524,7 +5524,7 @@ header.construct .cart-box {
 }
 #welcome-to-construct .col-lg-7 h2 {
     font-size: 24px;
-    color: #EFA600;
+    color: indianred;
     font-weight: bold;
     line-height: 28px;
     text-transform: uppercase;
@@ -5541,7 +5541,7 @@ header.construct .cart-box {
 #welcome-to-construct .col-lg-7 h3 {
     font-size: 24px;
     line-height: 26px;
-    color: #EFA600;
+    color: indianred;
     letter-spacing: .03em;
     font-weight: 500;
     margin: 0;
@@ -5607,7 +5607,7 @@ header.construct .cart-box {
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
-    background: #EFA600;
+    background: indianred;
     display: inline-block;
     padding: 0 49px;
     margin: 0;
@@ -5703,7 +5703,7 @@ header.construct .cart-box {
     border: 1px solid #565B64;
 }
 #our-team-construct .single-construct-member .content:before {
-    background: #EFA600;
+    background: indianred;
 }
 #our-team-construct .single-construct-member:hover .content:before, 
 #our-team-construct .single-construct-member:focus .content:before, 
@@ -5754,7 +5754,7 @@ header.construct .cart-box {
 }
 #our-team-construct .single-construct-member ul li a {
     display: inline-block;
-    color: #EFA600;
+    color: indianred;
     font-size: 18px;
     margin: 0 14px;
     transition: all .3s ease;
@@ -5804,7 +5804,7 @@ header.construct .cart-box {
     margin-bottom: 28px;
 }
 #blog-construct .single-blog-post .img-holder .date {
-    background: #EFA600;
+    background: indianred;
     display: inline-block;
     position: absolute;
     top: 0;
@@ -5869,11 +5869,11 @@ header.construct .cart-box {
     color: #4F4F4F;
 }
 #blog-construct .single-blog-post ul li a:hover {
-    color: #EFA600;
+    color: indianred;
 }
 
 #blog-construct .single-blog-post .img-holder:before {
-    background: #EFA600;
+    background: indianred;
 }
 #blog-construct .single-blog-post .img-holder img {
     transition: all .3s ease;
@@ -5907,14 +5907,13 @@ header.construct .cart-box {
 /** ====== Great construct team mover styles ====== **/
 
 #great-construct-team {
-    background: #162342 url(../img/resources/great-construct-team-bg.jpg) center center no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
+    background: white url(../img/resources/great-construct-team-bg.jpg) center center no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
     padding: 50px 0;
 }
 #great-construct-team h2 {
     text-transform: capitalize;
-    color: #fff;
     letter-spacing: .03em;
     font-size: 30px;
     line-height: 35px;
@@ -5940,7 +5939,6 @@ header.construct .cart-box {
 }
 #great-construct-team p.has-btn {
     font-size: 20px;
-    text-transform: uppercase;
     margin-bottom: 0;
     font-style: italic;
     font-weight: bold;
@@ -5949,7 +5947,6 @@ header.construct .cart-box {
     font-size: 14px;
     color: #000000;
     font-weight: bold;
-    text-transform: uppercase;
     border: 2px solid #000000;
     display: inline-block;
     line-height: 36px;
@@ -5967,14 +5964,15 @@ header.construct .cart-box {
 /** ====== footer construct styles ====== **/
 
 footer.construct {
-    background: #161616;
+    background: white;
+    color:black;
     padding: 80px 0 0px;
 }
 footer.construct .container {
     border-top: 0;
 }
 footer.construct .widget h3 {
-    color: #EFA600;
+    color: indianred;
     border-color: #262728;
 }
 footer.construct .widget .popular-post li,
@@ -5987,12 +5985,12 @@ footer.construct .widget .contact-info li {
     color: #636363;
 }
 footer.construct .widget a.read-more {
-    color: #EFA600;
+    color: indianred;
 }
 footer.construct .widget .social li a {
     background: none;
-    border: 1px solid #EFA600;
-    color: #EFA600;
+    border: 1px solid indianred;
+    color: indianred;
 }
 footer.construct .widget .social li a:hover {
     background: #FFBB00;
@@ -6103,7 +6101,7 @@ ul.why-choose-us-facts li .icon-holder {
   height: 40px;
 }
 ul.why-choose-us-facts li .icon-holder i.icon {
-  color: #EFA600;
+  color: indianred;
   font-size: 40px;
   line-height: 40px;
 }
@@ -6149,7 +6147,7 @@ ul.why-choose-us-facts li .content p {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  border: 1px solid #EFA600;
+  border: 1px solid indianred;
   text-align: center;
 }
 
@@ -6163,12 +6161,12 @@ ul.why-choose-us-facts li .content p {
 }
 .accrodion:hover,
 .accrodion.active {
-  border-color: #EFA600;
+  border-color: indianred;
 }
 .accrodion:hover .accrodion-header,
 .accrodion.active .accrodion-header {
-  background: #EFA600;
-  border-color: #EFA600;
+  background: indianred;
+  border-color: indianred;
 }
 .accrodion:hover .accrodion-header .icon-holder i,
 .accrodion.active .accrodion-header .icon-holder i {
@@ -6489,9 +6487,9 @@ header.construct.header-curvy .logo:before {
     width: 2000px;
     position: absolute;
     top: 0;
-    right: 0;
+    right: -60px;
     height: 110%;
-    background: #E8A20D url('../img/resources/header-v5-bg.png') no-repeat 0 0;
+    background: white url('../img/resources/header-v5-bg.png') no-repeat 0 0;
     -webkit-background-size: cover;
     background-size: cover;
     z-index: 9999;
@@ -6524,7 +6522,7 @@ header.construct.header-curvy ul.top-icons-wrap > li > a {
 }
 header.construct.header-curvy .mainmenu-container > ul > li.current > a,
 header.construct.header-curvy .mainmenu-container ul li a:hover {
-    color: #EEA010;
+    color: indianred;
 }
 header.construct.header-curvy .mainmenu-container ul > li.dropdown:after {
     content: '\f107';
@@ -6673,7 +6671,7 @@ header.construct.header-curvy.header-fixed .mainmenu-container > ul > li.dropdow
 .construct-banner-wrapper .construct-banner-caption span.border {
     width: 115px;
     height: 2px;
-    background: #F69C00;
+    background: indianred;
     display: block;
 }
 
@@ -6774,7 +6772,7 @@ header.construct.header-curvy.header-fixed .mainmenu-container > ul > li.dropdow
 }
 .service-two-tab-title ul li.active a:before,
 .service-two-tab-title ul li a:hover:before {
-    background: #EFA600;
+    background: indianred;
 }
 .single-sidebar {
     margin-top: 50px;
@@ -6957,8 +6955,8 @@ header.construct.header-curvy.header-fixed .mainmenu-container > ul > li.dropdow
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 1px solid #EFA600;
-    color: #EFA600;
+    border: 1px solid indianred;
+    color: indianred;
     text-align: center;
     line-height: 48px;
 }
