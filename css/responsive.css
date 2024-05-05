@@ -563,9 +563,6 @@
 	#blog-post.testimonials_v1 .sidebar-widget {
 	  padding-left: 35px;
 	}
-	#construction-welcome {
-	  margin-bottom: -30px;
-	}
 	.single-construction-welcome {
 		margin-bottom: 30px;
 	}
@@ -725,6 +722,7 @@
 		color: #fff;
 	}
 
+	header .logo img{ max-width:70%}
 
 	.construct.header-curvy .logo {text-align: left;width: 77%;}
 	.construct.header-curvy .logo,
@@ -932,99 +930,16 @@
 	}
 	
 	.mainmenu-container {
-		padding: 30px 0;
+		display: flex;
+    justify-content: space-between;
+    width: 100%;
 	}
-	button.mainmenu-toggler {
-		display: block;
-	}
-	header .mainmenu-container ul li {
-		line-height: 40px;
-		display: block;
-	}
-	header .mainmenu-container ul.top-icons-wrap {
-		margin-bottom: 30px;
-	}
-	header .mainmenu-container ul li.top-icons {
-		display: inline-block;
-	}
-	header .mainmenu-container ul.mainmenu {
-		float: none !important;
-		display: none;
-		text-align: center;
-		clear: both;
-		width: 75%;
-		margin: auto;
-		background: transparent;
-		border-radius: 5px;
-	}
-	header .mainmenu-container ul.mainmenu ul {
-		position: static;
-		opacity: 1;
-		visibility: visible;
-		border: none;
-		-webkit-box-shadow: none;
-		box-shadow: none;
-	}
-	header .mainmenu-container ul.mainmenu li a {
-		background: transparent none repeat scroll 0 0;
-		border-bottom: 1px solid #2A2A2A;
-		color: #767474;
-		display: block;
-		font-size: 14px;
-		font-weight: 400;
-		line-height: 35px;
-		padding: 0 20px;
+
+	header .mainmenu-container ul{
 		text-align: left;
-		text-transform: capitalize;
-		transition: all 0.3s ease 0s;
 	}
-	header nav.mainmenu-container ul > li > ul > li > a::after {
-		display: none;
-	}
-	header .mainmenu-container ul.mainmenu li a:hover,
-	header .mainmenu-container ul.mainmenu li.current > a {
-		color: #fff !important;
-		background: #DC9514;
-		padding: 0 30px;
-	}
-	header .mainmenu-container ul.mainmenu li.current > a {
-		padding: 0 20px;
-	}
-	header .mainmenu-container ul.mainmenu li ul.submenu {
-		display: none;
-	}
-	header .mainmenu-container ul.mainmenu li:last-child a {
-		border-bottom: 1px solid #2A2A2A;
-	}
-	header .mainmenu-container ul.mainmenu li a:before {
-		content: '';
-		display: none;
-	}
-	header .mainmenu-container ul.mainmenu ul {
-		width: 100%;
-	}
-	.mainmenu-container ul li.dropdown:after {
-		display: none !important;
-	}
-	.mainmenu-container ul li.dropdown .fa {
-		position: absolute;
-		right: 7px;
-		top: 5px;
-		width: 35px;
-		height: 25px;
-		display: block;
-		color: #FFF;
-		line-height: 22px;
-		font-size: 18px;
-		text-align: center;
-		z-index: 5;
-		cursor: pointer;
-		border: 1px solid #fff;
-		border-radius: 5px;
-	}
-	.mainmenu-container ul li.dropdown .fa:hover {
-		background: #DC9514;
-		color: #fff;
+	header.construct.header-curvy .mainmenu-container > ul > li > a{
+		padding:0 5px;
 	}
 	header .logo {
 		text-align: center;
@@ -1505,9 +1420,6 @@
 	#topbar .contact-info ul li a {
 		margin-right: 0;
 		line-height: 30px;
-	}
-	header.construct.header-curvy .logo {
-		width: 90%;
 	}
 	header.construct.header-curvy .mainmenu-container ul li {
 		line-height: 35px;

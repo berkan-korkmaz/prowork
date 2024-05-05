@@ -1648,7 +1648,7 @@ footer .footer-menu .footer-nav-toggler {
 #page-title {
     background: url(../img/resources/page-title-bg.jpg) center center no-repeat;
     background-size: cover;
-    padding: 65px 0;
+    padding: 80px 0;
 }
 #page-title .container {
     position: relative;
@@ -5307,6 +5307,7 @@ header.construct .cart-box {
     background-size: cover;
     padding: 80px 0;
 }
+#construction-welcome a{ color:inherit}
 .single-construction-welcome .img-holder {
     border: 5px solid #fff;
     margin-bottom: 30px;
@@ -5929,6 +5930,11 @@ header.construct .cart-box {
     font-style: italic;
     font-family: "Open Sans", sans-serif;
 }
+@media screen and (max-width:1200px) {
+    #great-construct-team p {
+        max-width: 50%;
+    }
+}
 #great-construct-team p b {
     font-size: 34px;
     color: #161616;
@@ -5958,7 +5964,14 @@ header.construct .cart-box {
 #great-construct-team p.has-btn a:before {
     background: #FFBB00;
 }
-
+@media screen and (max-width:990px){
+    #great-construct-team {
+        background: none;
+        border-bottom:1px solid black;
+        border-top:1px solid black;
+    }
+    #great-construct-team p{max-width: 100%;}
+}
 
 
 /** ====== footer construct styles ====== **/
@@ -6007,15 +6020,27 @@ footer.construct .widget .popular-post li a:hover h5 {
 footer.construct .widget .contact-info li .fa {
     color: #636363;
 }
-footer.construct .widget .contact-info li i,
-footer.construct .widget .contact-info li span {
-    display: table-cell;
-    vertical-align: middle;
-}
 footer.construct .widget .contact-info li span {
     line-height: 21px;
-    padding-left: 15px;
+    padding-left: 5px;
     font-family: 'Open Sans';
+}
+footer .half{
+    width:49%;
+    display: inline-block;
+}
+@media screen and (max-width:990px) {
+    footer .half{
+        width:100%;
+    }
+    footer .half:nth-of-type(2){
+        border:none !important;
+        margin-bottom:0 !important;
+    }
+    footer .half:nth-of-type(3){
+        padding-left:35px;
+    }
+    
 }
 footer.construct .widget .our-services li a {
     font-size: 14px;
@@ -6061,7 +6086,7 @@ footer.construct .widget img.positioned {
     background: #0F0F0F;
 }
 #bottom-bar.construct .container p {
-    color: #3F3F3F;
+    color: gray;
 }
 
 
@@ -6595,11 +6620,20 @@ header.construct.header-curvy.header-fixed .logo {
     height: 100%;
     padding-right: 0;
 }
-header.construct.header-curvy .logo:before {
+header .logo:before {
     transition: all .3s ease;
 }
 header.construct.header-curvy.header-fixed .logo:before {
     height: 115%;
+}
+@media screen and (max-width:500px) {
+
+    header.construct.header-curvy .logo:before {
+        display: none !important;
+    }
+    header .logo{
+        background-color: white;
+    }
 }
 header.construct.header-curvy.header-fixed .mainmenu-container > ul > li,
 header.construct.header-curvy.header-fixed .mainmenu-container > ul > li.dropdown:after {
@@ -7392,4 +7426,43 @@ header.construct.header-curvy.header-fixed .mainmenu-container > ul > li.dropdow
 
 header.construct.header-curvy .mainmenu-container > ul.mainmenu.one-page-scroll-menu > li > a {
     padding: 0 15px;
+}
+
+/*foto gallery*/
+.fotogallery img {
+  max-width: 100%;
+  display: block;
+}
+
+.fotogallery figure {
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin-bottom: 10px;
+  break-inside: avoid;
+}
+
+.fotogallery figure > img {
+  grid-row: 1 / -1;
+  grid-column: 1;
+}
+
+.fotogallery figure a {
+  color: black;
+  text-decoration: none;
+}
+
+.fotogallery figcaption {
+  grid-row: 2;
+  grid-column: 1;
+  background-color: rgba(255,255,255,.5);
+  padding: .2em .5em;
+  justify-self: start;
+}
+
+.fotogallery.container {
+  column-count: 4;
+  column-gap: 10px;
+  margin-top:30px;
+  margin-bottom:30px;
 }
