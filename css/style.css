@@ -6626,6 +6626,10 @@ header .logo:before {
 header.construct.header-curvy.header-fixed .logo:before {
     height: 115%;
 }
+.border-title{
+    padding-bottom:10px;
+    border-bottom:1px solid black;
+}
 @media screen and (max-width:500px) {
 
     header.construct.header-curvy .logo:before {
